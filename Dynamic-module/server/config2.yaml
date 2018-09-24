@@ -1,0 +1,79 @@
+recorder:
+  cameras:
+    - - "cam1" # will be used as folder name
+      - "rtmp://10.156.14.250:1935/live1/iisc_106?user=rbccps&pass=rbccps@123" # camera url avilable over Internet
+      - "14:03:00"
+      - "14:07:00"
+
+    - - "cam2" # will be used as folder name
+      - "rtmp://10.156.14.250:1935/live1/iisc_106?user=rbccps&pass=rbccps@123" # camera url avilable over Internet
+      - "14:05:00"
+      - "14:10:00"
+
+    - - "cam3" # will be used as folder name
+      - "rtmp://10.156.14.250:1935/live1/iisc_106?user=rbccps&pass=rbccps@123" # camera url avilable over Internet
+      - "14:08:00"
+      - "14:09:00"
+   
+    - - "cam4" # will be used as folder name
+      - "rtmp://10.156.14.250:1935/live1/iisc_106?user=rbccps&pass=rbccps@123" # camera url avilable over Internet
+      - "14:06:00"
+      - "14:07:00"
+
+
+    - - "cam5" # will be used as folder name
+      - "rtmp://10.156.14.250:1935/live1/iisc_106?user=rbccps&pass=rbccps@123" # camera url avilable over Internet
+      - "14:16:00"
+      - "14:17:00"
+
+
+    - - "cam6" # will be used as folder name
+      - "rtmp://10.156.14.250:1935/live1/iisc_106?user=rbccps&pass=rbccps@123" # camera url avilable over Internet
+      - "14:13:00"
+      - "14:15:00"
+
+
+    - - "cam7" # will be used as folder name
+      - "rtmp://10.156.14.250:1935/live1/iisc_106?user=rbccps&pass=rbccps@123" # camera url avilable over Internet
+      - "14:09:00"
+      - "14:14:00"
+    
+
+    - - "cam8" # will be used as folder name
+      - "rtmp://10.156.14.250:1935/live1/iisc_106?user=rbccps&pass=rbccps@123" # camera url avilable over Internet
+      - "14:06:00"
+      - "14:13:00"
+
+
+    - - "cam9" # will be used as folder name
+      - "rtmp://10.156.14.250:1935/live1/iisc_106?user=rbccps&pass=rbccps@123" # camera url avilable over Internet
+      - "14:20:00"
+      - "14:21:00"
+ 
+
+    - - "cam10" # will be used as folder name
+      - "rtmp://10.156.14.250:1935/live1/iisc_106?user=rbccps&pass=rbccps@123" # camera url avilable over Internet
+      - "14:17:00"
+      - "14:18:00"
+    
+
+
+  startDate: "2018-05-25"
+  endDate: "2018-05-27"
+  workDir: "/usr/node/video"
+  noofcamera: 10
+  ffprobeLog: false
+  ffmpegLog: false
+  ffmpegMessageLog: false
+  monitorLog: true
+  recorderConsoleLog: true
+  monitorConsoleLog: true
+  catalogName: "catalog.json"
+  noRecording: false #true = do not start monitors, see rec.js
+  cleaner: #files to keep, all other clean
+    "7": # older than 7 days
+      - []
+   
+
+
+  

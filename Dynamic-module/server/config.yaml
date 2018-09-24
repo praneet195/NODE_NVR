@@ -1,0 +1,50 @@
+recorder:
+  cameras:
+    - - "cam1" # will be used as folder name
+      - "rtmp://10.156.14.250:1935/live1/iisc_106?user=rbccps&pass=rbccps@123" # camera url avilable over Internet
+      - "10:17:00"
+      - "10:22:00"
+
+    - - "cam2" # will be used as folder name
+      - "rtmp://10.156.14.250:1935/live1/iisc_106?user=rbccps&pass=rbccps@123" # camera url avilable over Internet
+      - "10:17:00"
+      - "10:22:00"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  segDursec: "30"
+  startDate: ""
+  endDate: ""
+  workDir: "/usr/node/video"
+
+  ffprobeLog: false
+  ffmpegLog: false
+  ffmpegMessageLog: false
+  monitorLog: true
+  recorderConsoleLog: true
+  monitorConsoleLog: true
+  catalogName: "catalog.json"
+  noRecording: false #true = do not start monitors, see rec.js
+  cleaner: #files to keep, all other clean
+    "7": # older than 7 days
+      - []
+   
+
+
+  
